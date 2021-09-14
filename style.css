@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+.kozepmenu {
+    padding-top: 15vh;
+    width: 90vw;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.kozepmenu > a {
+    float: left;
+    background-image: url("./src/img/IMG_3733.jpg");
+    background-repeat: no-repeat;
+    background-size: 20vw; 
+    margin: 1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    box-shadow: none;
+    width: 20vw;
+    height: 20vh;
+    transition: all 0.3s ease-in-out;
+} 
+.bg-img {
+    background-image: url("./src/img/IMG.jpg");
+    width: 20vw;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    position:absolute;
+    text-align: center;
+    z-index: 1;
+}
+.text {
+    text-align: center;
+    width: 20vw;
+    height: 20vh;
+    padding-top: 4vh;
+}
+.shadow {
+    float: left;  
+    margin: 1vw;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    box-shadow: none;
+    width: 20vw;
+    height: 20vh;
+}
+#kozepso{
+	text-decoration: none;
+	/*position: relative;
+	left: 250px;
+	top: -140px;*/
+	color: black;
+	text-align: center;
+	/*background-color: white;*/
+	margin: 20px;
+	transition: all 0.5s ease-in-out;
+}
+.button:hover {
+    transform: scale(1.1);
+    background-position: center;
+} 
+
+
+
+/* #kozepso:hover{
+	filter: blur(0);
+}
+#hatter{
+	height: 180px;
+	width: 320px;
+}
+#kep{
+	padding-bottom: 6px;
+	background-color: white;
+	transition: all 0.3s ease-in-out;
+	border: 2px solid white;
+	border-radius: 3px;
+	width: 324px;
+	display: inline-block;
+}
+#kep:hover{
+	background-color: gray;
+	transform: scale(1.1);
+	border-color: gray;
+} */
