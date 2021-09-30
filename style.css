@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
 }
 .kozepmenu {
     padding-top: 15vh;
@@ -25,6 +26,12 @@ body {
     height: 20vh;
     transition: all 0.3s ease-in-out;
 } 
+.h2{
+    margin-top: 10vh;
+    color: white;
+    font-size: 2em;
+    margin-left: 25px;
+}
 .text {
     text-align: center;
     width: 20vw;
@@ -45,6 +52,12 @@ body {
     transform: scale(1.1);
     background-position: center;
 } 
+.keszitette{
+    margin-top: 20vh;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
 
 
 /*pages*/
@@ -76,20 +89,21 @@ body {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 10vh;
+    margin-top: 5vh;
     text-align: justify;
     line-height: 3vh;
 }
 
 .image1 {
     float: left;
-    width: 15vw;
     margin-right: 1vw;
+    height: 30vh;
 }
 
 .image2 {
     float: right;
-    width: 15vw;
     margin-left: 1vw;
+    height: 30vh;
 }
 .gomb {
     text-decoration: none;
