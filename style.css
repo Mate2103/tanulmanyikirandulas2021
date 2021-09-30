@@ -14,7 +14,6 @@ body {
 
 .kozepmenu > a {
     float: left;
-    background-image: url("./pages/img/IMG_3733.jpg");
     background-repeat: no-repeat;
     background-size: 20vw; 
     margin: 1vw;
@@ -27,7 +26,6 @@ body {
     transition: all 0.3s ease-in-out;
 } 
 .bg-img {
-    background-image: url("./pages/img/IMG.jpg");
     width: 20vw;
     height: 20vh;
     background-position: center;
@@ -55,12 +53,8 @@ body {
 }
 #kozepso{
 	text-decoration: none;
-	/*position: relative;
-	left: 250px;
-	top: -140px;*/
 	color: black;
 	text-align: center;
-	/*background-color: white;*/
 	margin: 20px;
 	transition: all 0.5s ease-in-out;
 }
@@ -70,25 +64,84 @@ body {
 } 
 
 
+/*pages*/
+body {
+    background-color: #3f3f3f;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-/* #kozepso:hover{
-	filter: blur(0);
+.tartalom {
+    width: 80vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
 }
-#hatter{
-	height: 180px;
-	width: 320px;
+
+.cim {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    color: white;
+    font-weight: 600;
 }
-#kep{
-	padding-bottom: 6px;
-	background-color: white;
-	transition: all 0.3s ease-in-out;
-	border: 2px solid white;
-	border-radius: 3px;
-	width: 324px;
-	display: inline-block;
+
+.szoveg {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10vh;
+    text-align: justify;
+    line-height: 3vh;
 }
-#kep:hover{
-	background-color: gray;
-	transform: scale(1.1);
-	border-color: gray;
-} */
+
+.image1 {
+    float: left;
+    width: 15vw;
+    margin-right: 1vw;
+}
+
+.image2 {
+    float: right;
+    width: 15vw;
+    margin-left: 1vw;
+}
+.gomb {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 14px 16px;
+    text-align: center;
+    float: left;
+}
+.menu{
+    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+}
+#home{
+    background-color: #2abd50;
+}
+#selected{
+    padding-top: 9px;
+    border-bottom: 5px solid #2abd50;
+}
+.forras{
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 14px 16px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10vh;
+    text-align: justify;
+    line-height: 3vh;
+}
